@@ -55,14 +55,14 @@ class _CountryDataPageState extends State<CountryDataPage> {
                           offset: Offset(0, 10)),
                     ]),
                     child: Row(
-                      children: <Widget>[
+                      children: [
                         Container(
                           width: 140,
                           margin: EdgeInsets.symmetric(horizontal: 10),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
+                            children: [
                               Text(
                                 countryData[index]['country'],
                                 style: TextStyle(fontWeight: FontWeight.bold),
@@ -79,7 +79,7 @@ class _CountryDataPageState extends State<CountryDataPage> {
                             child: Container(
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
+                            children: [
                               Text(
                                 'CONFIRMED:  ' +
                                     countryData[index]['cases'].toString(),
