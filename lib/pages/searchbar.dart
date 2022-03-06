@@ -52,14 +52,14 @@ class SearchBar extends SearchDelegate {
                     offset: Offset(0, 10)),
               ]),
               child: Row(
-                children: <Widget>[
+                children: [
                   Container(
                     width: 140,
                     margin: EdgeInsets.symmetric(horizontal: 10),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
+                      children: [
                         Text(
                           suggestionList[index]['country'],
                           style: TextStyle(fontWeight: FontWeight.bold),
@@ -76,7 +76,7 @@ class SearchBar extends SearchDelegate {
                       child: Container(
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
+                      children: [
                         Text(
                           'CONFIRMED:  ' +
                               suggestionList[index]['cases'].toString(),
