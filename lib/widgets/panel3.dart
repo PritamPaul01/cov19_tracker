@@ -6,7 +6,7 @@ class Panel3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
-        children: <Widget>[
+        children: [
           GestureDetector(
             onTap: (() {
               Navigator.push(
@@ -18,7 +18,7 @@ class Panel3 extends StatelessWidget {
               color: Colors.blue,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[
+                children: [
                   Text(
                     'FAQS',
                     style: TextStyle(
