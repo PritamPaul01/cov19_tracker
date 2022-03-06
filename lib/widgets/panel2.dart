@@ -15,7 +15,7 @@ class Panel2 extends StatelessWidget {
           return Container(
             margin: EdgeInsets.symmetric(horizontal: 10, vertical: 8),
             child: Row(
-              children: <Widget>[
+              children: [
                 Image.network(
                   countryData[index]['countryInfo']['flag'],
                   height: 25,
