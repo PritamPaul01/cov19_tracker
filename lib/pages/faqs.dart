@@ -13,7 +13,7 @@ class FAQSPage extends StatelessWidget {
           itemBuilder: (context, index) {
             return ExpansionTile(
               title: Text(MainData.questionAnswers[index]['question']),
-              children: <Widget>[
+              children: [
                 Text(MainData.questionAnswers[index]['answer'])
               ],
             );
