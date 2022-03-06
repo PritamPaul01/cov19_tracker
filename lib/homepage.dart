@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: SingleChildScrollView(
           child: Column(
-        children: <Widget>[
+        children: [
           Container(
             height: 110,
             padding: EdgeInsets.all(10),
