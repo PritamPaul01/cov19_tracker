@@ -13,7 +13,7 @@ class Panel1 extends StatelessWidget {
         physics: NeverScrollableScrollPhysics(),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2, childAspectRatio: 2),
-        children: <Widget>[
+        children: [
           StatusPanel(
             title: 'CONFIRMED',
             panelColor: Colors.red[100]!,
@@ -69,7 +69,7 @@ class StatusPanel extends StatelessWidget {
       color: panelColor,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
+        children: [
           Text(
             title,
             style: TextStyle(
